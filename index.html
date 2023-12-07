@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+      .side-bar{
+  position:fixed;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+.sidebar-link{
+  min-height: 74px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+
+}
+.sidebar-link:hover{
+  background-color: rgb(235,235,235);
+}
+.sidebar-link img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.sidebar-link div{
+  font: Roboto, Arial;
+  font-size: 10px;
+}
+  </style>
+
+<nav class="side-bar">
+  <div class="sidebar-link">
+   <img src="icons/home.svg" alt="">
+   <div>Home</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="icons/explore.svg" alt="">
+   <div>Explore</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="icons/subscriptions.svg" alt="">
+   <div>Subscriptions</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="icons/originals.svg" alt="">
+   <div>Originals</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="icons/youtube-music (1).svg" alt="">
+   <div>YouTube Music</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="icons/library.svg" alt="">
+   <div>Library</div>
+ </div>
+</nav>
+
+</body>
+</html>
